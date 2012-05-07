@@ -1,0 +1,51 @@
+{
+    "name": "Piwik",
+    "description": "This app lets you deploy your Piwik analytics JavaScript on a CloudFlare-powered site simply by entering your IDSITE.",
+    "keywords" : [
+        "analytics"
+        ],
+    "version": "0.0.1",
+    "contributors": [
+    {
+        "name" : "John Roberts",
+        "email" : "jbr@pencoyd.com"
+    }
+    ],
+        "repository" : {
+            "type" : "git",
+            "url" : "https://github.com/pencoyd/cf-piwik.git"
+        },
+        "main" : "./public/javascripts/piwik.js",
+        "dependencies" : {
+        },
+        "licenses" : [
+        {
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/MIT"
+		}],
+        "implements" : "AMD",
+        "scripts" : {
+        },
+        "config" : {
+            "assets" : {
+                "logos" : {
+                    "200px": "./public/images/piwik_logo-200.png",
+                    "132px": "./public/images/piwik_logo-132.png"
+                }
+            },
+            "payment": {},
+            "details": {
+               "Category": "Analytics",
+               "Language": "English",
+               "Restrictions": "None"
+           },
+            "interface": [
+            {
+                "id": "IDSITE",
+                "name": "Display text",
+                "description": "Put your Piwik SITEID here. The analytics code will be deployed throughout your site, on any CloudFlare-powered page.",
+                "type": "string"
+            }
+            ]
+        }
+}
