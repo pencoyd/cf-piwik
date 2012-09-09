@@ -1,10 +1,10 @@
 {
-    "name": "Piwik",
+    "name": "CF-Piwik",
     "description": "This app lets you deploy your Piwik analytics JavaScript on a CloudFlare-powered site simply by entering your IDSITE.",
     "keywords" : [
         "analytics"
         ],
-    "version": "0.0.3",
+    "version": "0.0.4",
     "contributors": [
     {
         "name" : "John Roberts",
